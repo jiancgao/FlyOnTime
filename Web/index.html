@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="library/d3.v5.min.js"></script>
+<script src="library/topojson.v2.min.js"></script>
+<script src="library/d3-scale-chromatic.v1.min.js"></script>
+<script src="library/d3-tip.min.js"></script>
+
+<head>
+	<title>CSE 6242 Final Project</title>
+</head>
+
+<body>
+	<H1><center>FlyOnTime</center></H1>
+	<div class = "left">
+		Flight Date
+			<ul class = "a" >
+				<li>
+					Month  
+					<select id="month"></select>
+				</li>
+				<br>
+				<li>
+					Day of Week
+					<select id="date"></select>
+				</li>
+			</ul>
+		Flight Time
+			<ul class = "a" >
+				<li>
+					Take-off  
+					<select id="take-off1"></select>
+					-
+					<select id="take-off2"></select>
+				</li>
+				<br>
+				<li>
+					Arrival
+					<select id="arrival1"></select>
+					-
+					<select id="arrival2"></select>
+				</li>
+			</ul>
+		Airport 
+		<ul class = "a" >
+			<li>
+				Departure 
+				<select id="departure"></select>
+			</li>
+			<br>
+			<li>
+				Arrival
+				<select id="arrival"></select>
+			</li>
+		</ul>
+		<button id="predButton">Predict</button>
+	</div>
+
+	<div class = "left2">
+		<svg id = "map"  width="700" height="600"></svg>
+		<svg id = "info" width="300" height="600"></svg>
+	</div>
+	<br>
+	<div class ="buttom">
+		Prediction Table
+		<br>
+		<svg id="chart" width="650" height="300"></svg>
+	</div>
+
+</body>
+
+<script src="./js/main.js"></script>
+<link rel="stylesheet" href="./css/styles.css">
+
+</html>
