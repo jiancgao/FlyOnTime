@@ -2,6 +2,7 @@
 An Interactivbe web Travel Assistant with Flight Delay Tracking and Predictions with D3.js.
 
 Final Project of CSE6242(2019Fall)@Georgia Tech. 
+
 Team members: Jiancong Gao, Zhengyang Chen, Jingyi Li, Yi Li, Yilun Zha, Ziqi Tang
 
 ### DESCRIPTION
